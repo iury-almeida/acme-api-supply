@@ -1,7 +1,7 @@
 'use strict';
 
-const testeRoute = require('../core/funcionality/routes');
+const supplyRoutes = require('../core/supply/supplyRoutes');
 
 module.exports = (app) => {
-    testeRoute(app);
+    supplyRoutes(app);
 }
